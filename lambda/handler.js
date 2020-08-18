@@ -1,4 +1,4 @@
-'use strict';aaa
+'use strict';
 const axios = require("axios");
 
 module.exports.getWeather = async (event) => {
