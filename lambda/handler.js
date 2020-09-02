@@ -1,6 +1,7 @@
 'use strict';
 const axios = require("axios");
 
+
 module.exports.getWeather = async (event) => {
   const city = event.currentIntent.slots["City"];
   const url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&APPID=08e3ad0437282f0abefa56ee74ab56af";
